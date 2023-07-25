@@ -5,9 +5,9 @@
 
 @section('content')
 
-    <div class="row h-100  d-flex justify-content-center align-items-center">
+    <div class="row h-100 d-flex justify-content-center align-items-center px-xs-5">
 
-        <div class="card w-25 ">
+        <div class="card w-25 w-xs-100 ">
             <div class="card-body">
                 <!-- Logo -->
                 <div class="app-brand justify-content-center">

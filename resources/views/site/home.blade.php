@@ -5,8 +5,7 @@
 @section('content')
 <div class="page-content">
     {{-- Блок 1 начало --}}
-  <div class="d-flex flex-lg-row flex-md-row flex-xs-column justify-content-end h-75 mb-5">
-    {{-- <div class="col-lg-1"></div> --}}
+  <div class="d-flex flex-lg-row flex-md-row flex-xs-column justify-content-end h-75 mb-5 mt-xs-5">
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 p-5 d-flex align-items-center">
       <div>
         <div class="col-lg-12">
@@ -55,7 +54,7 @@
               Поехали<span class="tf-icons bx bx-pie-chart-alt"></span>&nbsp;
             </button>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 ml-xs-1">
             <h4>Лучшие курсы пользовательского<br />опыта</h4>
           </div>
         </div>

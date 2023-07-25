@@ -19,7 +19,7 @@ $orders = [
 @endphp
 
     <div class="container-xxl pt-7  flex-grow-1 container-p-y">
-        <div class="card">
+        <div class="card mt-0">
             <h5 class="card-header">История заказов </h5>
             <div class="table-responsive text-nowrap">
                 <table class="table">

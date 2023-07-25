@@ -212,7 +212,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
             <div class="portfolio order-4 row py-6 px-9">
                 <h2>Портфолио мастера</h2>
                 <p>
@@ -234,6 +234,6 @@
                             alt="View Badge User"></div>
                 </div>
             </div>
-        </div>
+
 
     @endsection

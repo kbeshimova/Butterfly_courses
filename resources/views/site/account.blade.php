@@ -6,7 +6,7 @@
 
     <div class="row h-100 d-flex justify-content-center align-items-center px-xs-5">
 
-        <div class="card mb-4 w-50">
+        <div class="card mb-4 w-50 w-xs-100">
             <div class="card-header d-flex justify-content-between align-items-center">
                 <h5 class="mb-0">Редактировать аккаунт</h5>
             </div>
