@@ -18,7 +18,7 @@ $courses = [
 @endphp
 
     <div class="page-content">
-        <div class="col-6 col-md-12 col-xs-12 px-9 pt-7 py-6">
+        <div class="heading col-6 col-md-12 col-xs-12">
             <h2>Список курсов</h2>
             <p>
                 Узнайте секреты профессионального мастерства и раскройте свой потенциал в мире красоты с нашими
@@ -27,7 +27,7 @@ $courses = [
             </p>
         </div>
 
-        <div class="row px-9 pb-5 courses-grid">
+        <div class="row pb-5 courses-grid">
           @foreach ($courses as $course)            
             <div class="course-card d-flex justify-content-center align-items-center">
                 <img class="bg-img-course" src="{{asset('assets/img/banners/'.$course['img'])}}"

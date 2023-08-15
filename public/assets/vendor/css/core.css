@@ -1391,8 +1391,8 @@ progress {
   }
 
   .px-9 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+    padding-right: 10% !important;
+    padding-left: 10% !important;
   }
 }
 
@@ -10906,8 +10906,8 @@ button.list-group-item-gray.active {
 }
 
 .px-9 {
-  padding-right: 9rem !important;
-  padding-left: 9rem !important;
+  padding-right: 10% !important;
+  padding-left: 10% !important;
 }
 
 .px-12 {
@@ -10946,8 +10946,8 @@ button.list-group-item-gray.active {
 }
 
 .py-6 {
-  padding-top: 6rem !important;
-  padding-bottom: 6rem !important;
+  padding-top: 5% !important;
+  padding-bottom: 5% !important;
 }
 
 

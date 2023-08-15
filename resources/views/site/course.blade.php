@@ -12,7 +12,7 @@
 
 @section('content')
     <div class="page-content">
-        <div class="about-course row px-9 pt-7  py-6">
+        <div class="heading about-course row">
             <div class="col-7">
                 <h2>Eyelash extension courses</h2>
                 <p>
@@ -35,7 +35,7 @@
             </div>
         </div>
 
-        <div class="stages-block row py-6 px-9 ">
+        <div class="stages-block row py-6 ">
             <h3 class="d-flex py-5 justify-content-center align-items-center">Stages of learning in the <span
                     class="highlighted"> course</span></h3>
             <div class="col-lg-1 col-md-1 col-xs-12 stages-no">01</div>
@@ -59,7 +59,7 @@
         </div>
 
         <div class="row  py-6 px-9">
-            <div class="col-lg-6 col-md-6 col-xs-12 order-2 corse-content mb-4 mb-md-0">
+            <div class="col-lg-6 col-md-12 col-xs-12 order-2 corse-content mb-4 mb-md-0">
                 <h6 class="d-flex justify-content-center pt-4">Course content</h6>
                 <div class="accordion mt-3" id="accordionExample">
                     <div class="card accordion-item active">
@@ -155,7 +155,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-xs-12 order-1 d-flex flex-column justify-content-center px-9 ">
+            <div class="col-lg-6 col-md-12 col-xs-12 order-1 d-flex flex-column justify-content-center px-9 ">
                 <h3 id="textAboveRange"><span class="highlighted">02.</span> For Advanced</h3>
                 <div class="range">
                     <div class="sliderValue">
@@ -170,8 +170,9 @@
                 </div>
             </div>
 
-            <div class="course-buy order-3  row d-flex justify-content-center px-9 py-6">
-                <div class="one-course-card py-4 px-4 mx-5">
+            <div class="course-buy order-3 py-6 gap-4">
+                <div class="one-course-card">
+                    {{-- py-4 px-4 mx-5 --}}
                     <h3>Course brow artist</h3>
                     <div class="row d-flex flex-row py-3">
                         <div class="col-6 d-flex justify-content-end highlighted price">775 rub</div>
@@ -191,7 +192,8 @@
                         </button>
                     </div>
                 </div>
-                <div class="one-course-card py-4 px-4 mx-5">
+                <div class="one-course-card">
+                    {{-- py-4 px-4 mx-5 --}}
                     <h3>Course brow artist</h3>
                     <div class="row d-flex flex-row py-3">
                         <div class="col-6 d-flex justify-content-end highlighted price">775 rub</div>

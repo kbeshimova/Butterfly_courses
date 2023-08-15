@@ -20,6 +20,7 @@
         <li><a href="/courses-list">Курсы</a></li>
         <li><a href="/login">Аккаунт</a></li>
         <li><a href="/orders">История заказов</a></li>
+        <li><a href="/karina">Karina</a></li>
     </ul>
 </div>
 <script src="{{ asset(mix('assets/js/jquery-3.7.0.min.js')) }}"></script>
