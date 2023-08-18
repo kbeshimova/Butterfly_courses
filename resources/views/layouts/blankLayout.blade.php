@@ -10,11 +10,13 @@
   </div>
 
   <!-- Content -->
-@include('layouts/sections/site/navbar')
-<div class="page-content-custom">
-@yield('content')
-<!--/ Content -->
-@include('layouts/sections/site/footer')
+<div class="d-flex flex-column justify-content-between">
+  @include('layouts/sections/site/navbar')
+  <div class="page-content-custom">
+  @yield('content')
+ <!--/ Content -->
+  @include('layouts/sections/site/footer')
+  </div>
 </div>
 
 @endsection

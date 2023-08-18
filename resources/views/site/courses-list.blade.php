@@ -40,7 +40,7 @@ $courses = [
                         <p class="card-title">{{$course['subtitle']}}</p>
                     </div>
                    <a href="/course"><button type="button" class="btn btn-white">
-                        Подробнее
+                        Подробнее<i class='bx bx-sm bx-play-circle'></i>
                     </button></a>
                 </div>
             </div>

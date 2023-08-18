@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="row h-100 d-flex justify-content-center align-items-center px-xs-5">
+    <div class="row h-100 d-flex justify-content-center align-items-center login-block">
 
         <div class="card mb-4 w-50 w-xs-100">
             <div class="card-header d-flex justify-content-between align-items-center">

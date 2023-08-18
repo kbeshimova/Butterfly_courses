@@ -5,7 +5,7 @@
 
 @section('content')
 
-    <div class="row h-100  d-flex justify-content-center align-items-center px-xs-5">
+    <div class="row h-100  d-flex justify-content-center align-items-center login-block">
         <div class="card w-25 w-xs-100">
             <div class="card-body">
                 <!-- Logo -->

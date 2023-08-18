@@ -44,9 +44,9 @@ Route::get('/orders', function(){
     return view('site/orders');
 });
 // Orders
-Route::get('/karina', function(){
-    return view('site/karina');
-});
+// Route::get('/karina', function(){
+//     return view('site/karina');
+// });
 
 // Main Page Route
 Route::get('/admin', $controller_path . '\dashboard\Analytics@index')->name('dashboard-analytics');

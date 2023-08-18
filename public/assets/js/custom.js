@@ -105,6 +105,8 @@ $(document).ready(function () {
     inputSlider.trigger("input");
   });
 
+  
+
  // carousel portfolio
 
 // var owl = $(".owl-carousel");

@@ -56,6 +56,10 @@ h6 {
   font-weight: 600;
 }
 
+.contacts a {
+  color: #741777;
+}
+
 .price {
   font-size: 2rem;
   font-weight: 700;
@@ -87,13 +91,18 @@ h6 {
   border-radius: 0.75rem;
   background: white;
   display: flex;
-  padding: 1rem 1rem;
+  padding: 5% 5%;
   justify-content: start;
   align-items: center;
   color: #E1347E;
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 89%;
+  width: 70%;
+}
+
+.btn-white:hover {
+  color: #E1347E;
 }
 
 .btn-pink {
@@ -117,6 +126,7 @@ h6 {
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 89%;
+  transition: 0.5s;
 }
 
 
@@ -242,6 +252,7 @@ h6 {
 }
 
 .banner-course {
+  transition: 0.5s;
   background-image: url('/assets/img/banners/banner01.svg');
   /* width: 50%; */
   width: 22.8125rem;
@@ -251,6 +262,11 @@ h6 {
   margin-left: 10%;
   margin-top: 10%
 }
+
+/* .banner-course:hover {
+  transition: 0.5s;
+  margin-top: 5%
+} */
 
 .banner-coach {
   background-image: url('/assets/img/banners/banner02.svg');
@@ -330,10 +346,31 @@ h6 {
 
 .about-card {
   border-radius: 1.5rem;
-  /* height: 34.25rem; */
-  height: fit-content;
+  height: 28.25rem;
+  /* height: fit-content; */
   background-color: white;
   padding: 5%;
+}
+
+.about-inner {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+.about-inner::-webkit-scrollbar {
+  width: 8px;
+  /* ширина scrollbar */
+}
+
+.about-inner::-webkit-scrollbar-track {
+  background: #EDEAF2;
+  /* цвет дорожки */
+}
+
+.about-inner::-webkit-scrollbar-thumb {
+  background-color: #B4A9D2;
+  border-radius: 10px;
+  /* цвет плашки */
 }
 
 .reviews-card {
@@ -346,12 +383,17 @@ h6 {
 }
 
 .main-pg-course {
-  /* width: 23.125rem; */
-  width: 90%;
+  width: 23.125rem;
+  /* width: 90%; */
   height: 19.625rem;
   border-radius: 1.25rem;
   color: white !important;
   padding: 10%;
+}
+
+.main-pg-course p {
+  text-transform: uppercase;
+  /* font-size: 20px; */
 }
 
 .top-course {
@@ -415,8 +457,7 @@ h6 {
 }
 
 .active-about {
-  /* width: 14.5rem; */
-  height: 10.5rem;
+  max-width: 11.5rem;
   border-radius: 1.5rem;
   border: 2px solid #741777;
   background: #FFF !important;
@@ -426,8 +467,8 @@ h6 {
 .about {
   border-radius: 1.5rem;
   background: #B4A9D2;
-  /* width: 14.5rem; */
-  height: 10.5rem;
+  max-width: 11.5rem;
+  min-height: 110px;
   color: #EDEAF2;
   cursor: pointer;
 }
@@ -472,6 +513,7 @@ h5 {
   border: 1px solid #741777;
   background: #FFF;
   color: #741777;
+  transition: 0.2s;
 }
 
 .review-inner {
@@ -489,6 +531,7 @@ h5 {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.55rem;
+  padding: 1%;
 }
 
 .review-avatar {
@@ -522,17 +565,29 @@ h5 {
   height: 5rem; */
 }
 
+.sale-block {
+  padding: 0% 6%;
+}
+
 .sale-text {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
 .sale-sum {
   color: #BE00BD;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 89%;
   text-transform: uppercase;
+}
+
+.pad18 {
+  margin-left: 18%;
+}
+
+.mr-5 {
+  margin-right: 5%;
 }
 
 .footer {
@@ -609,7 +664,7 @@ li a {
 
 .stages-no {
   color: #E1347E;
-  font-size: 5.625rem;
+  font-size: 4.625rem;
   font-style: normal;
   font-weight: 600;
   line-height: 89%;
@@ -932,21 +987,28 @@ li a {
   .one-course-card {
     margin-top: 2rem;
   }
+
   .price {
     font-size: 1.8rem;
   }
+
   .one-course-card li {
     font-size: 15px;
-}
-.pre {
-  font-size: 15px;
-}
+  }
+
+  .pre {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 577px) {
   :root {
     /* --bs-root-font-size: 16px; */
     --bs-body-font-size: 0.8rem;
+  }
+
+  .login-block {
+    padding: 10%;
   }
 
   .list-card {
@@ -1087,8 +1149,9 @@ li a {
   .course-buy {
     flex-direction: column;
   }
+
   .one-course-card {
     width: fit-content;
     padding: 10%;
-}
+  }
 }
